@@ -1,0 +1,17 @@
+  Determinando los proyectos que se van a restaurar...
+  Todos los proyectos est├ín actualizados para la restauraci├│n.
+D:\Projects_Programming\Personal\Agent_SeCure-IT\Program.cs(14,18): error CS1061: "IServiceCollection" no contiene una definici├│n para "AddHttpClient" ni un m├®todo de extensi├│n accesible "AddHttpClient" que acepte un primer argumento del tipo "IServiceCollection" (┬┐falta alguna directiva using o una referencia de ensamblado?) [D:\Projects_Programming\Personal\Agent_SeCure-IT\AgenteActivos.csproj]
+D:\Projects_Programming\Personal\Agent_SeCure-IT\RecolectorDatos.cs(96,34): warning CA1416: Se puede acceder a este sitio de llamada en todas las plataformas. "ManagementObjectSearcher" solo se admite en 'windows'. (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [D:\Projects_Programming\Personal\Agent_SeCure-IT\AgenteActivos.csproj]
+D:\Projects_Programming\Personal\Agent_SeCure-IT\RecolectorDatos.cs(97,50): warning CA1416: Se puede acceder a este sitio de llamada en todas las plataformas. "ManagementObjectSearcher.Get()" solo se admite en 'windows'. (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [D:\Projects_Programming\Personal\Agent_SeCure-IT\AgenteActivos.csproj]
+D:\Projects_Programming\Personal\Agent_SeCure-IT\RecolectorDatos.cs(99,29): warning CA1416: Se puede acceder a este sitio de llamada en todas las plataformas. "ManagementBaseObject.this[string]" solo se admite en 'windows'. (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [D:\Projects_Programming\Personal\Agent_SeCure-IT\AgenteActivos.csproj]
+
+ERROR al compilar.
+
+D:\Projects_Programming\Personal\Agent_SeCure-IT\RecolectorDatos.cs(96,34): warning CA1416: Se puede acceder a este sitio de llamada en todas las plataformas. "ManagementObjectSearcher" solo se admite en 'windows'. (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [D:\Projects_Programming\Personal\Agent_SeCure-IT\AgenteActivos.csproj]
+D:\Projects_Programming\Personal\Agent_SeCure-IT\RecolectorDatos.cs(97,50): warning CA1416: Se puede acceder a este sitio de llamada en todas las plataformas. "ManagementObjectSearcher.Get()" solo se admite en 'windows'. (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [D:\Projects_Programming\Personal\Agent_SeCure-IT\AgenteActivos.csproj]
+D:\Projects_Programming\Personal\Agent_SeCure-IT\RecolectorDatos.cs(99,29): warning CA1416: Se puede acceder a este sitio de llamada en todas las plataformas. "ManagementBaseObject.this[string]" solo se admite en 'windows'. (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [D:\Projects_Programming\Personal\Agent_SeCure-IT\AgenteActivos.csproj]
+D:\Projects_Programming\Personal\Agent_SeCure-IT\Program.cs(14,18): error CS1061: "IServiceCollection" no contiene una definici├│n para "AddHttpClient" ni un m├®todo de extensi├│n accesible "AddHttpClient" que acepte un primer argumento del tipo "IServiceCollection" (┬┐falta alguna directiva using o una referencia de ensamblado?) [D:\Projects_Programming\Personal\Agent_SeCure-IT\AgenteActivos.csproj]
+    3 Advertencia(s)
+    1 Errores
+
+Tiempo transcurrido 00:00:01.91

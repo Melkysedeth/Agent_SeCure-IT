@@ -1,0 +1,9 @@
+Crear e Iniciar Servicio
+sc.exe create "AgenteMonitoreoActivos" binPath= "C:\AgenteActivos\AgenteActivos.exe" start= auto
+sc.exe start "AgenteMonitoreoActivos"
+
+Eliminar Servicio
+sc.exe delete "AgenteMonitoreoActivos"
+
+Verificar Servicio
+sc.exe query "AgenteMonitoreoActivos"
