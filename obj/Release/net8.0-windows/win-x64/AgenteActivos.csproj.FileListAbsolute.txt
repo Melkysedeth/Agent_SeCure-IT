@@ -232,3 +232,4 @@ D:\Projects_Programming\Personal\Agent_SeCure-IT\obj\Release\net8.0-windows\win-
 D:\Projects_Programming\Personal\Agent_SeCure-IT\obj\Release\net8.0-windows\win-x64\AgenteActivos.pdb
 D:\Projects_Programming\Personal\Agent_SeCure-IT\obj\Release\net8.0-windows\win-x64\AgenteActivos.genruntimeconfig.cache
 D:\Projects_Programming\Personal\Agent_SeCure-IT\obj\Release\net8.0-windows\win-x64\ref\AgenteActivos.dll
+D:\Projects_Programming\Personal\Agent_SeCure-IT\obj\Release\net8.0-windows\win-x64\AgenteActivos.sourcelink.json

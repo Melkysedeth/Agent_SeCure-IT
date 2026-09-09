@@ -1,9 +1,14 @@
-Crear e Iniciar Servicio
+## Publicar Ejecutable
+dotnet publish -c Release -r win-x64 --self-contained true -o ./AgenteActivos
+
+## Configurar el appsettings.json con el codigo real del activo
+
+## Crear e Iniciar Servicio
 sc.exe create "AgenteMonitoreoActivos" binPath= "C:\AgenteActivos\AgenteActivos.exe" start= auto
 sc.exe start "AgenteMonitoreoActivos"
 
-Eliminar Servicio
+## Eliminar Servicio
 sc.exe delete "AgenteMonitoreoActivos"
 
-Verificar Servicio
+## Verificar Servicio
 sc.exe query "AgenteMonitoreoActivos"

@@ -14,6 +14,7 @@
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
     <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="8.0.0" />
     <PackageReference Include="Microsoft.Extensions.Http" Version="10.0.10" />
+    <PackageReference Include="System.ServiceProcess.ServiceController" Version="8.0.0" />
     <!-- Para leer la batería vía WMI (Win32_Battery) -->
     <PackageReference Include="System.Management" Version="8.0.0" />
   </ItemGroup>

@@ -22,6 +22,8 @@ public class Worker : BackgroundService
             "Agente iniciado para el activo {Codigo}. Intervalo de reporte: {Intervalo} min.",
             _options.Codigo, intervalo.TotalMinutes);
 
+        RecolectorDatos.AsegurarServicioUbicacionActivo();
+
         while (!stoppingToken.IsCancellationRequested)
         {
             try

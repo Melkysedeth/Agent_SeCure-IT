@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AgenteActivos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f3ef51c346df31e9ee8affd6677232842b4e52b")]
 [assembly: System.Reflection.AssemblyProductAttribute("AgenteActivos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AgenteActivos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

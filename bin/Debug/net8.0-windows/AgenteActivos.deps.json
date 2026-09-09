@@ -11,7 +11,8 @@
           "Microsoft.Extensions.Hosting": "8.0.0",
           "Microsoft.Extensions.Hosting.WindowsServices": "8.0.0",
           "Microsoft.Extensions.Http": "10.0.10",
-          "System.Management": "8.0.0"
+          "System.Management": "8.0.0",
+          "System.ServiceProcess.ServiceController": "8.0.0"
         },
         "runtime": {
           "AgenteActivos.dll": {}

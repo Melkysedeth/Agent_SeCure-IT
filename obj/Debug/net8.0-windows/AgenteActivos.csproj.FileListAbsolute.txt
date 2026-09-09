@@ -58,3 +58,4 @@ D:\Projects_Programming\Personal\Agent_SeCure-IT\bin\Debug\net8.0-windows\Agente
 D:\Projects_Programming\Personal\Agent_SeCure-IT\bin\Debug\net8.0-windows\AgenteActivos\AgenteActivos.runtimeconfig.json
 D:\Projects_Programming\Personal\Agent_SeCure-IT\bin\Debug\net8.0-windows\AgenteActivos\appsettings.json
 D:\Projects_Programming\Personal\Agent_SeCure-IT\bin\Debug\net8.0-windows\AgenteActivos\body.json
+D:\Projects_Programming\Personal\Agent_SeCure-IT\obj\Debug\net8.0-windows\AgenteActivos.sourcelink.json

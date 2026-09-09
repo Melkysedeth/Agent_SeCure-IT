@@ -21,7 +21,9 @@ public record ReportePayload(
     string? procesador,
     string? memoria_ram,
     string? almacenamiento,
-    string? direccion_mac
+    string? almacenamiento_disponible,
+    string? direccion_mac,
+    List<PerifericoInfo>? perifericos
 );
 
 public class ReporteSender
@@ -62,8 +64,10 @@ public class ReporteSender
             procesador: RecolectorDatos.ObtenerProcesador(),
             memoria_ram: RecolectorDatos.ObtenerMemoriaRam(),
             almacenamiento: RecolectorDatos.ObtenerAlmacenamiento(),
-            direccion_mac: RecolectorDatos.ObtenerDireccionMac()
-        );
+            almacenamiento_disponible: RecolectorDatos.ObtenerAlmacenamientoDisponible(),
+            direccion_mac: RecolectorDatos.ObtenerDireccionMac(),
+            perifericos: RecolectorDatos.ObtenerPerifericos()
+);
 
         using var request = new HttpRequestMessage(HttpMethod.Post, _options.EdgeFunctionUrl)
         {
